@@ -13,12 +13,6 @@ subtn.addEventListener('click', yourname);
 function yourname() {
    console.log(namebox.value);
    console.log(agebox.value);
+    var picked = colorbox.options[colorbox.selectedIndex].text;
+   document.getElementById("output").innerHTML = "Hello, my name is " + namebox.value + " and I am " + agebox.value + " years old. My favorite color is " + picked + ".";
 }
-
-// let askname = prompt("What is your name?", "Your name here...");
-
-// namebox.innerHTML = askname; 
-// console.log("Hello, " + namebox + "!");
-
-//let t = namebox.innerHTML += "this";
-//console.log(t);

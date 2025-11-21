@@ -26,7 +26,7 @@
 				<label class="input-label">Full name</label>
 			</div>
 						<div class="input">
-				<input type="number" class="input-field"  required/>
+				<input type="number" class="input-field"  id="ageInput" required/>
 				<label class="input-label">Age</label>
 			</div>
 						<!-- <div class="input">
@@ -44,18 +44,19 @@
 			
 			<div>
 	 		<label class="input-title">Favorite Pet:</label><br>
-    <input type="radio" name="pet" value="Dog">Dog<br>
-    <input type="radio" name="pet" value="Cat">Cat<br>
-    <input type="radio" name="pet" value="Fish">Fish<br><br>
-</div>
+    			<input type="radio" name="pet" value="Dog">Dog<br>
+    			<input type="radio" name="pet" value="Cat">Cat<br>
+    			<input type="radio" name="pet" value="Fish">Fish<br><br>
+			</div>
    
-<div>
-    <label class="input-title">Hobbies:</label><br>
-    <input type="checkbox" class="hobby" value="Reading">Reading<br>
-    <input type="checkbox" class="hobby" value="Gaming">Gaming<br>
-    <input type="checkbox" class="hobby" value="Sports">Sports<br><br>
-	</div>
-	<div class="action">
+			<div>
+    		<label class="input-title">Hobbies:</label><br>
+    		<input type="checkbox" class="hobby" value="Reading">Reading<br>
+    		<input type="checkbox" class="hobby" value="Gaming">Gaming<br>
+    		<input type="checkbox" class="hobby" value="Sports">Sports<br><br>
+			</div>
+
+			<div class="action">
 				<button type="button" id="submitBtn" class="action-button">Create Profile</button>
 			</div>
 			</div>
@@ -63,14 +64,14 @@
 		</form>
 </div>
 
-  <form id="profileForm">
-    <!-- <label>Name:</label>
+  <!-- <form id="profileForm">
+    <label>Name:</label>
     <input type="text" id="nameInput"><br><br>
 
     <label>Age:</label>
-    <input type="number" id="ageInput"><br><br> -->
+    <input type="number" id="ageInput"><br><br> 
 
-    <!-- <label>Favorite Color:</label>
+    <label>Favorite Color:</label>
     <select id="colorInput">
       <option>Red</option>
       <option>Blue</option>
@@ -86,14 +87,15 @@
     <label>Hobbies:</label><br>
     <input type="checkbox" class="hobby" value="Reading">Reading<br>
     <input type="checkbox" class="hobby" value="Gaming">Gaming<br>
-    <input type="checkbox" class="hobby" value="Sports">Sports<br><br> -->
+    <input type="checkbox" class="hobby" value="Sports">Sports<br><br>
 
-    <!-- <button type="button" id="submitBtn">Create Profile</button> -->
-  </form>
+    <button type="button" id="submitBtn">Create Profile</button>
+   </form>
+-->
+  <h2 id="prof">Your Profile:</h2>
+  <p id="output"></p>   
 
-  <h2>Your Profile:</h2>
-  <p id="output"></p>
-
+  
   <script src="scripting.js"></script>
 
 </body>

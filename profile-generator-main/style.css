@@ -7,7 +7,7 @@
 body {
 	font-family: "DM Sans", sans-serif;
 	line-height: 1.5;
-	background-color: #f1f3fb;
+	background-color: #fbf5f1;
 	padding: 0 2rem;
 }
 
@@ -39,7 +39,7 @@ input {
 	border-radius: 8px;
 	overflow: hidden;
 	padding-bottom: 65%;
-	background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
+	background-image: url('https://files.catbox.moe/ph92me.png');
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: 0 5%;
@@ -53,7 +53,7 @@ input {
 	right: 10%;
 	font-size: 1.75rem;
 	font-weight: 700;
-	color: #735400;
+	color: #ffffff;
 	line-height: 1.222;
 	small {
 		display: block;
@@ -78,13 +78,13 @@ input {
 }
 
 .input-label {
-	color: #8597a3;
+	color: #a39685;
 	position: absolute;
 	top: 1.5rem;
 	transition: .25s ease;
 }
 .input-title {
-    color: #8597a3;
+    color: #a39585;
 
 	top: 1.5rem;
 }
@@ -138,7 +138,13 @@ input {
 	}
 }
 
+#prof {
+	text-align: center;
 
+}
 
+#output {
+	text-align: center;
+}
 
 
