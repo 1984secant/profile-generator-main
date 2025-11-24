@@ -14,7 +14,7 @@ function yourname() {
    console.log(namebox.value);
    console.log(agebox.value);
    var picked = colorbox.options[colorbox.selectedIndex].text;
-   var favpet = document.getElementById("petInput").text;
-   var favgame = gamebox.options[gamebox.selectedIndex].text;
+   // var favpet = document.getElementById("petInput").text;
+   // var favgame = gamebox.options[gamebox.selectedIndex].text;
    document.getElementById("output").innerHTML = "Hello, my name is " + namebox.value + " and I am " + agebox.value + " years old. My favorite color is " + picked + ".";
 }
