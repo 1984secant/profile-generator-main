@@ -19,7 +19,7 @@ img {
 
 /* // iOS Reset  */
 input {
-	appearance: none;
+	/* appearance: none; */
 	border-radius: 0;
 }
 
